@@ -1,0 +1,132 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Ensure the body takes up the full viewport height */
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+main {
+    flex-grow: 1; /* Allow the main content to grow and push the footer down */
+}
+
+footer {
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+header {
+    background-color: gray;
+    padding: 30px;
+}
+
+.link-header{
+    background-color: cornflowerblue;
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.link-nav{
+    font-size: 20px;
+    color: yellow;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.title-container {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+p::before {
+    content: '\1F4AA'; /* 💪 */
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.list {
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+.custom-footer {
+    background-color: cornflowerblue;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+
+.footer-link {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center items vertically */
+    justify-content: space-around; /* Center items horizontally */
+    background-color: gray;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items within each section */
+}
+
+.creator-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Center items within the creator details */
+}
+
+.footer-links a {
+    margin-bottom: 10px; /* Space between links */
+}
+
+.photos {
+    display: flex;
+    padding: 30px;
+    /*flex-direction: column;*/
+    justify-content: center; /* Center photos horizontally */
+    align-items: center; /* Center photos vertically */
+    margin-top: 100px;
+}
+
+
+li::before {
+    content: '\1F643'; /* 🙃 */
+    margin-left: 10px;
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+}
