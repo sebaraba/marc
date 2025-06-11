@@ -57,11 +57,11 @@ a{
     font-size: 40px;
 }
 
-p::before {
-    content: '\1F4AA'; /* 💪 */
-    margin-left: 10px;
-    padding: 10px;
-}
+/*p::before {*/
+/*    content: '\1F4AA'; !* 💪 *!*/
+/*    margin-left: 10px;*/
+/*    padding: 10px;*/
+/*}*/
 
 .list {
     margin-left: 100px;
@@ -125,8 +125,4 @@ li::before {
     content: '\1F643'; /* 🙃 */
     margin-left: 10px;
     padding: 10px;
-}
-
-li {
-    list-style-type: none;
 }
